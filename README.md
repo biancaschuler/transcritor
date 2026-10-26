@@ -99,7 +99,7 @@ Transcricoes/
 
 Para usar outra pasta, defina a variável de ambiente `TRANSCRITOR_PASTA`.
 
-Mensagem de voz e vídeo exportados do WhatsApp, do Instagram ou do Telegram ficam
+Mensagem de voz e vídeo exportados do WhatsApp ou do Telegram ficam
 juntos numa pasta por conversa, como `Finalizados/WhatsApp <contato>/`, com um `.md`
 por mensagem.
 

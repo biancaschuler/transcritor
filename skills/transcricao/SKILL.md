@@ -1,6 +1,6 @@
 ---
 name: transcricao
-description: Transcreve e analisa gravações de áudio e vídeo (reunião de produto, alinhamento entre times, discovery, entrevista com usuário, review de pesquisa, planning, workshop, conversa estratégica, aula, mensagem de voz) com o faster-whisper rodando na própria máquina, e gera um .md por gravação com a transcrição revisada, a análise (tema, pautas, decisões, dúvidas, tarefas, insights, frases importantes) e a transcrição bruta anexa. Use sempre que o usuário pedir para transcrever, analisar ou processar uma gravação, apontar um arquivo de áudio ou vídeo, citar a pasta Entrada das transcrições, pedir para continuar as gravações pendentes ou quiser preparar a máquina para transcrever, mesmo que não diga o nome da skill.
+description: Transcreve e analisa gravações de áudio e vídeo (reunião de trabalho, entrevista, aula, palestra, mensagem de voz) com o faster-whisper rodando na própria máquina, e gera um .md por gravação com a transcrição revisada, a análise (tema, pautas, decisões, dúvidas, tarefas, insights, frases importantes) e a transcrição bruta anexa. Use sempre que o usuário pedir para transcrever, analisar ou processar uma gravação, apontar um arquivo de áudio ou vídeo, citar a pasta Entrada das transcrições, pedir para continuar as gravações pendentes ou quiser preparar a máquina para transcrever, mesmo que não diga o nome da skill.
 ---
 
 # Transcrição e análise de gravações
@@ -155,8 +155,8 @@ Liste as mídias da `Entrada` (`.mp4`, `.mov`, `.mkv`, `.webm`, `.m4a`, `.mp3`, 
 
 ## Mídia de app de conversa, uma pasta por conversa
 
-Mensagem de voz e vídeo exportados de app de conversa (WhatsApp, Instagram,
-Telegram) não abrem pasta por gravação. A pasta é da conversa, porque o que importa
+Mensagem de voz e vídeo exportados de app de conversa (WhatsApp, Telegram)
+não abrem pasta por gravação. A pasta é da conversa, porque o que importa
 ali é o fio com a pessoa.
 
 - **Nome da pasta.** A conversa fecha em `Finalizados/<App> <Contato>/`, como
@@ -277,7 +277,7 @@ partir dele, dos frames e do glossário, produza a transcrição revisada e a an
 completa seguindo **à risca** `references/regras-analise.md`. Ali estão as regras de
 fidelidade, os marcadores `[inaudível]`, `[incerto: ...]` e `[interpretação]`, a
 inferência da data real, o censo de participantes, a estrutura de seções e as regras
-próprias de entrevista com usuário e de reunião de produto.
+próprias de entrevista e de reunião de trabalho.
 
 ## Passo 5, salvar e organizar a pasta final
 

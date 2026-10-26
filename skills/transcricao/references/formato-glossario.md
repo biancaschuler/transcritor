@@ -30,8 +30,7 @@ o que se sabe dele.
   marca o nome a confirmar.
 - "Ouvido como" lista as grafias erradas que o Whisper já produziu para aquele nome.
 - A linha de pessoa leva a ficha do censo de participantes de `regras-analise.md`,
-  com função ou cargo, organização e lado (cliente ou fornecedor), área ou time,
-  frente de trabalho e como o nome foi confirmado. Campo sem evidência fica
+  com função ou cargo, organização, área ou time e como o nome foi confirmado. Campo sem evidência fica
   `[não identificado]`.
 - Títulos `##` podem separar o arquivo por projeto, organização ou tipo de nome. Eles
   só organizam a leitura e não mudam o que o script lê.

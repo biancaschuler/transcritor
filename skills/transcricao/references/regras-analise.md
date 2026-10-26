@@ -3,15 +3,8 @@
 Você vai atuar como transcritor e organizador de conversas gravadas em áudio ou
 vídeo.
 
-A gravação costuma ser uma destas.
-- reunião de produto
-- alinhamento entre times
-- discovery
-- entrevista com usuário
-- review de pesquisa
-- planning
-- workshop
-- conversa estratégica
+A gravação costuma ser uma reunião de trabalho, uma entrevista, uma aula, uma
+palestra ou uma mensagem de voz.
 
 Sua principal tarefa é extrair o conteúdo falado com o máximo de fidelidade possível.
 
@@ -34,8 +27,8 @@ Sua principal tarefa é extrair o conteúdo falado com o máximo de fidelidade p
 ## Glossário de nomes próprios
 
 O glossário mora em `<pasta-base>/glossario.md`, ou no caminho de
-`TRANSCRITOR_GLOSSARIO`. Ele guarda a grafia correta de empresa, cliente, projeto,
-pessoa e termo recorrente, com as variantes erradas que o Whisper já produziu (campo
+`TRANSCRITOR_GLOSSARIO`. Ele guarda a grafia correta de empresa, projeto, pessoa e
+termo recorrente, com as variantes erradas que o Whisper já produziu (campo
 "ouvido como"). Ele não vem pronto. Na primeira análise que confirmar um nome
 próprio, crie o arquivo no formato de `references/formato-glossario.md` e avise o
 usuário na resposta final. Daí em diante o glossário cresce a cada gravação.
@@ -60,8 +53,9 @@ leitura.
 
 ## Censo de participantes (obrigatório)
 
-O registro de pessoas serve para montar um **mapa de stakeholders**, então em toda
-gravação de trabalho ele é censo, e não resumo do que cada pessoa disse.
+O registro de pessoas serve para saber quem participa de cada assunto ao longo das
+gravações, então em toda gravação de trabalho ele é censo, e não resumo do que cada
+pessoa disse.
 
 - **Registre TODAS as pessoas presentes**, mesmo quem não falou. Presença é dado. Um
   nome que aparece só no rótulo do Meet ou do Teams, na lista de participantes ou
@@ -79,9 +73,8 @@ gravação de trabalho ele é censo, e não resumo do que cada pessoa disse.
 - Para cada pessoa, preencha o máximo que a evidência permitir.
   - **Nome**, na grafia canônica, ou `[incerto: ...]` sem confirmação por frame ou glossário
   - **Função ou cargo**
-  - **Organização** e o lado dela (cliente ou fornecedor)
+  - **Organização**
   - **Área ou time**
-  - **Frente de trabalho** do projeto, quando o projeto tiver frentes definidas
   - **Como foi confirmado** (frame de tal timestamp, fala, glossário)
 - Campo sem evidência fica `[não identificado]`. Não invente cargo nem área por
   plausibilidade, porque um nome sem função é melhor que uma função inventada.
@@ -93,8 +86,8 @@ gravação de trabalho ele é censo, e não resumo do que cada pessoa disse.
 
 ## Regras do seu contexto
 
-O projeto onde a skill roda pode ter regras próprias, como as frentes de trabalho de
-um cliente, uma pasta extra para onde copiar a análise ou um padrão de nome
+O projeto onde a skill roda pode ter regras próprias, como uma pasta extra para onde
+copiar a análise, um campo a mais na ficha de cada pessoa ou um padrão de nome
 diferente. Essas regras moram no `CLAUDE.md` do projeto ou no glossário, e valem por
 cima destas quando as duas brigarem. Sem regra própria, vale o que está aqui.
 
@@ -197,8 +190,8 @@ entrou em discussão. Cada pauta é um recorte específico de um dos temas macro
   cada um.
 - Em `# Principais temas discutidos` ficam os **temas** macro (áreas, projetos,
   produtos, iniciativas), como *Pagamentos*. Aqui fica o **detalhamento** de cada
-  tema, com timestamp, como *Conflitos do time de pagamentos* e *Resultados da
-  pesquisa de pagamentos*.
+  tema, com timestamp, como *Conflitos do time de pagamentos* e *Prazo da
+  entrega de pagamentos*.
 - A seção é **obrigatória em TODA gravação**, inclusive nas que não são reunião de
   trabalho. Adapte a linguagem das pautas ao conteúdo (numa aula, por exemplo, os
   tópicos apresentados), mas sempre com o timestamp.
@@ -232,32 +225,32 @@ resolver.
 ### Tipos de tarefa
 
 - **Compromisso explícito com dono.** Alguém diz o que vai fazer, em primeira pessoa.
-  "Eu mando o Figma atualizado até quinta." É o caso mais fácil.
+  "Eu mando o documento atualizado até quinta." É o caso mais fácil.
 - **Compromisso atribuído a outra pessoa.** Alguém delega, e o outro aceita ou fica
-  em silêncio. "O Sicrano fecha o roteiro do teste." Vale registrar mesmo quando a
+  em silêncio. "O Sicrano fecha a planilha." Vale registrar mesmo quando a
   pessoa delegada não estava na chamada.
 - **Tarefa órfã.** O grupo reconhece que algo precisa ser feito e ninguém assume.
   "Alguém tem que falar com o jurídico sobre isso." É o tipo mais valioso de capturar
   e o que mais se perde, porque não tem dono para lembrar. Ele conversa direto com a
-  instrução de destacar os "pontos sem dono claro" das reuniões de produto.
-- **Entrega de artefato.** Protótipo, deck, planilha, roteiro, documento, relatório,
-  ambiente configurado. A tarefa é o artefato prometido, e não a conversa sobre ele.
+  instrução de destacar os "pontos sem dono claro" das reuniões de trabalho.
+- **Entrega de artefato.** Documento, planilha, apresentação, relatório, ambiente
+  configurado. A tarefa é o artefato prometido, e não a conversa sobre ele.
 - **Busca de informação.** Perguntar para alguém de fora, levantar dado, checar
-  histórico, confirmar número com o cliente. Vira tarefa quando alguém precisa sair
+  histórico, confirmar número com quem tem o dado. Vira tarefa quando alguém precisa sair
   da reunião e ir atrás.
-- **Validação ou aprovação.** Revisar texto, aprovar layout, homologar fluxo, passar
-  pelo time de segurança. Tem dono e tem quem espera o resultado.
-- **Agendamento e convocação.** Marcar a próxima sessão, chamar alguém específico
-  para ela, montar workshop, reservar horário com o cliente.
+- **Validação ou aprovação.** Revisar texto, aprovar uma proposta, homologar uma
+  entrega. Tem dono e tem quem espera o resultado.
+- **Agendamento e convocação.** Marcar a próxima conversa, chamar alguém específico
+  para ela, reservar horário com alguém de fora.
 - **Desbloqueio operacional.** Acesso a sistema, licença, credencial, ambiente,
   permissão, contrato. Costuma aparecer de passagem e sumir.
 - **Decisão adiada.** O grupo escolhe não decidir agora. A tarefa é decidir, com um
   prazo ou um gatilho. Ela entra como trabalho agendado e fica fora de Decisões e de
   Dúvidas.
-- **Tarefa condicional.** Depende de um evento. "Se o cliente aprovar o escopo, a
-  gente começa o handoff." O gatilho faz parte da tarefa e entra no campo de prazo.
-- **Tarefa recorrente.** É combinação de processo, e não item único. "Atualizar o
-  board toda segunda antes da daily."
+- **Tarefa condicional.** Depende de um evento. "Se aprovarem o orçamento, a gente
+  começa a obra." O gatilho faz parte da tarefa e entra no campo de prazo.
+- **Tarefa recorrente.** É combinação de processo, e não item único. "Mandar o
+  relatório toda segunda de manhã."
 - **Cobrança de tarefa antiga.** Alguém retoma uma pendência de reunião anterior,
   cumprida ou não. Serve para fechar o ciclo e para cruzar com as análises passadas.
 
@@ -276,23 +269,20 @@ não há tarefa.
 
 ## Regras específicas
 
-Se for entrevista com usuário, destaque estes pontos.
-- dores reais
+Se for entrevista, destaque estes pontos.
+- dificuldades concretas que a pessoa relata
 - comportamentos concretos
-- workaround
 - contradições
-- linguagem usada pelo usuário
+- linguagem usada pela pessoa
 - sinais emocionais
-- fricções
 - momentos de hesitação
 
-Se for reunião de produto, destaque estes pontos.
+Se for reunião de trabalho, destaque estes pontos.
 - conflitos de prioridade
-- dependências entre times
-- riscos operacionais
+- dependências entre pessoas ou times
+- riscos
 - decisões implícitas
 - desalinhamentos
-- tensões entre áreas
 - pontos sem dono claro
 
 ## Importante
@@ -346,7 +336,7 @@ da seção acima.
 ### Mídia de app de conversa
 
 A regra completa está no SKILL.md. A pasta é da conversa, e não da gravação, então a
-mensagem de voz e o vídeo exportados de WhatsApp, Instagram ou Telegram fecham em
+mensagem de voz e o vídeo exportados de WhatsApp ou Telegram fecham em
 `Finalizados/<App> <Contato>/`, com a mídia e o `.md` de cada mensagem lado a lado.
 
 O nome do arquivo não muda, e cada mídia continua com o `.md` dela. A análise de uma

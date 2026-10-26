@@ -56,10 +56,9 @@ corrompidos.
 ## Passo 2, agrupar por tema e responder
 
 A extração entrega um item por transcrição, e o valor está em **agrupar**. Leia os
-temas e junte as transcrições que tratam do mesmo assunto, projeto ou cliente sob um
-rótulo curto. Várias gravações costumam ser do mesmo fio condutor (um projeto, um
-cliente, uma pauta recorrente), então agrupe por esse fio, e não
-pela data.
+temas e junte as transcrições que tratam do mesmo assunto ou projeto sob um rótulo
+curto. Várias gravações costumam ser do mesmo fio condutor (um projeto, uma pessoa,
+uma pauta recorrente), então agrupe por esse fio, e não pela data.
 
 Use este formato de resposta.
 
@@ -77,8 +76,8 @@ Markdown ou cruzar decisões e tarefas pendentes entre gravações do mesmo grup
 
 Diretrizes de agrupamento.
 
-- Agrupe por **fio condutor**, e não por data. O fio pode ser um projeto ou cliente
-  ("Projeto Quasar, redesenho do app"), uma pauta interna (contratações), uma
+- Agrupe por **fio condutor**, e não por data. O fio pode ser um projeto
+  ("Projeto Quasar"), uma pauta interna (contratações), uma
   iniciativa (novo processo de compras) ou uma natureza (aulas, reuniões de
   status). Um item pode aparecer em mais de um grupo quando cobre dois assuntos.
 - Mantenha os rótulos curtos e o resumo de cada grupo numa frase, porque o usuário
