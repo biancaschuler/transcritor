@@ -1,0 +1,14 @@
+{
+  "name": "transcritor",
+  "description": "Skills do Claude Code para transcrever e analisar gravações de reunião.",
+  "owner": {
+    "name": "biancaschuler"
+  },
+  "plugins": [
+    {
+      "name": "transcritor",
+      "source": ".",
+      "description": "Transcreve gravações de reunião, entrevista e aula na sua máquina com o faster-whisper e gera um .md por gravação com a transcrição revisada e a análise."
+    }
+  ]
+}

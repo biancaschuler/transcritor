@@ -1,0 +1,35 @@
+# Mídia e dado de transcrição não entram no repositório, nem como exemplo.
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.ogg
+*.opus
+*.aac
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.transcript.txt
+*.part
+*.frames/
+glossario.md
+registro/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Configuração local do Claude Code e cópias da raiz do workspace
+.claude/settings.local.json
+.claude/rules/raiz-*
+.claude/raiz/
+CLAUDE.local.md
+.env
+desktop.ini
+.DS_Store

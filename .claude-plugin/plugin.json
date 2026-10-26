@@ -1,0 +1,12 @@
+{
+  "name": "transcritor",
+  "version": "1.0.0",
+  "description": "Transcreve gravações de reunião, entrevista e aula na sua máquina com o faster-whisper e gera um .md por gravação com a transcrição revisada e a análise.",
+  "author": {
+    "name": "biancaschuler"
+  },
+  "homepage": "https://github.com/biancaschuler/transcritor",
+  "repository": "https://github.com/biancaschuler/transcritor",
+  "license": "MIT",
+  "keywords": ["transcricao", "transcription", "whisper", "faster-whisper", "reunioes", "meetings", "entrevistas", "interviews"]
+}
