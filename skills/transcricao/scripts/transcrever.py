@@ -107,7 +107,7 @@ SILENCE_REPORT_SEC = 10 * 60  # janela acima disso entra no resumo SILENCIO_10MI
 
 # Arquivo acima de CHUNK_THRESHOLD_SEC é transcrito em blocos de CHUNK_SECONDS. O
 # Whisper decodifica o áudio inteiro em memória de uma vez, perto de 64 KB/s, então
-# um arquivo de 18 h passa de 4 GB de RAM. Cada bloco fechado vai para o .part e
+# um arquivo de muitas horas passa de alguns GB de RAM. Cada bloco fechado vai para o .part e
 # vira ponto de retomada, o que vale muito numa rodada de horas.
 CHUNK_THRESHOLD_SEC = int(os.environ.get("WHISPER_CHUNK_THRESHOLD_MIN", "60")) * 60
 CHUNK_SECONDS = int(os.environ.get("WHISPER_CHUNK_MIN", "30")) * 60

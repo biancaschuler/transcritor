@@ -200,13 +200,11 @@ entrou em discussão. Cada pauta é um recorte específico de um dos temas macro
   tema, com timestamp, como *Conflitos do time de pagamentos* e *Resultados da
   pesquisa de pagamentos*.
 - A seção é **obrigatória em TODA gravação**, inclusive nas que não são reunião de
-  trabalho, como mentoria, consulta e demais gravações pessoais. Adapte a linguagem
-  das pautas ao conteúdo (numa mentoria, por exemplo, os assuntos trazidos na
-  sessão), mas sempre com o timestamp.
+  trabalho. Adapte a linguagem das pautas ao conteúdo (numa aula, por exemplo, os
+  tópicos apresentados), mas sempre com o timestamp.
 
 ## Tarefas (com timestamp e checkbox)
 
-A seção `# Tarefas` substitui a antiga `# Ações combinadas` e é mais larga que ela.
 Tarefa é qualquer coisa que alguém precisa fazer **depois** da gravação, fora da
 conversa. É o que sobra como trabalho quando a chamada cai. Isso separa a tarefa da
 decisão, que já foi resolvida ali, e da dúvida aberta, que ninguém se comprometeu a
@@ -234,8 +232,7 @@ resolver.
 ### Tipos de tarefa
 
 - **Compromisso explícito com dono.** Alguém diz o que vai fazer, em primeira pessoa.
-  "Eu mando o Figma atualizado até quinta." É o caso mais fácil e o único que a
-  antiga `# Ações combinadas` costumava capturar.
+  "Eu mando o Figma atualizado até quinta." É o caso mais fácil.
 - **Compromisso atribuído a outra pessoa.** Alguém delega, e o outro aceita ou fica
   em silêncio. "O Sicrano fecha o roteiro do teste." Vale registrar mesmo quando a
   pessoa delegada não estava na chamada.
@@ -266,10 +263,10 @@ resolver.
 
 ### Fora de gravação de trabalho
 
-Em mentoria e consulta, a tarefa continua existindo com outra cara, como o
-exercício combinado até a próxima sessão, uma leitura, uma conversa a ter com
-alguém, um exame a marcar ou um comportamento a observar. O formato é o mesmo, com
-a linguagem adaptada, igual à regra de `# Pautas discutidas`.
+Numa gravação que não é reunião de trabalho, como uma aula ou uma conversa pessoal,
+a tarefa continua existindo com outra cara, como um exercício combinado, uma leitura
+ou uma conversa a ter com alguém. O formato é o mesmo, com a linguagem adaptada,
+igual à regra de `# Pautas discutidas`.
 
 ### O que não é tarefa
 

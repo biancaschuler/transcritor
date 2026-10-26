@@ -58,7 +58,7 @@ corrompidos.
 A extração entrega um item por transcrição, e o valor está em **agrupar**. Leia os
 temas e junte as transcrições que tratam do mesmo assunto, projeto ou cliente sob um
 rótulo curto. Várias gravações costumam ser do mesmo fio condutor (um projeto, um
-cliente, uma crise interna, uma pauta recorrente), então agrupe por esse fio, e não
+cliente, uma pauta recorrente), então agrupe por esse fio, e não
 pela data.
 
 Use este formato de resposta.
@@ -79,8 +79,8 @@ Diretrizes de agrupamento.
 
 - Agrupe por **fio condutor**, e não por data. O fio pode ser um projeto ou cliente
   ("Projeto Quasar, redesenho do app"), uma pauta interna (contratações), uma
-  iniciativa (novo processo de compras) ou uma natureza (sessões pessoais, reuniões
-  de status). Um item pode aparecer em mais de um grupo quando cobre dois assuntos.
+  iniciativa (novo processo de compras) ou uma natureza (aulas, reuniões de
+  status). Um item pode aparecer em mais de um grupo quando cobre dois assuntos.
 - Mantenha os rótulos curtos e o resumo de cada grupo numa frase, porque o usuário
   quer uma visão de relance, e não os resumos longos na íntegra.
 - Use o nome da pasta como identificador da gravação. A data no padrão

@@ -25,10 +25,8 @@ __pycache__/
 *.pyc
 .venv/
 
-# Configuração local do Claude Code e cópias da raiz do workspace
+# Configuração local do Claude Code
 .claude/settings.local.json
-.claude/rules/raiz-*
-.claude/raiz/
 CLAUDE.local.md
 .env
 desktop.ini
